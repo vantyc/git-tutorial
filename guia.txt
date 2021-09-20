@@ -4,3 +4,25 @@ git init
 * especificar datos iniciales
 git config --global user.name 'Rafael Carrasco'
 git config --global user.email 'vantyc@hotmail.com'
+
+* crear una rama o branch
+git branch Develop
+
+* mostrar las ramas
+git show-branch
+
+* cambiar de branch
+git checkout Develop
+
+* mandar los cambios al repositorio
+git commit -m "comentario"
+
+* mandar los cambios al repositorio remoto
+git push
+
+* direccionar a un branch especifico "ejemplo: Develop"
+git push --set-upstream origin Develop
+
+**  * [new branch]      Develop -> Develop  
+*                         local    remoto
+
