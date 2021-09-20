@@ -1,0 +1,6 @@
+* crear un nuevo repositorio
+git init
+
+* especificar datos iniciales
+git config --global user.name 'Rafael Carrasco'
+git config --global user.email 'vantyc@hotmail.com'
